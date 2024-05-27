@@ -18,7 +18,6 @@ export default function Orderspage() {
 
     if (data) return (
         <>
-
             <h1 className="text-center mt-20 text-6xl font-black">Ordenes Listas</h1>
             <Logo />
 
@@ -33,7 +32,6 @@ export default function Orderspage() {
                 </div>
 
             ) : <p className="text-center my-10">No hay ordenes listas</p >}
-
         </>
     )
 }

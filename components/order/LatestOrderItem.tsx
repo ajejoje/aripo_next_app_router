@@ -5,7 +5,6 @@ type LatestOrderItemProps = {
     order: OrderWithProducts
 }
 
-
 export default function LatestOrderItem({ order }: LatestOrderItemProps) {
 
     return (

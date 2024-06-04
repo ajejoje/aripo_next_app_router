@@ -4,14 +4,13 @@ import Logo from "@/components/ui/Logo";
 import { OrderWithProducts } from "@/src/types";
 import LatestOrderItem from "@/components/order/LatestOrderItem";
 
-
-export default function Orderspage() {
+export default function OrdersPage() {
 
     const url = '/orders/api'
     const fetcher = () => fetch(url).then(res => res.json()).then(data => data)
     const { data, error, isLoading } = useSWR<OrderWithProducts[]>(url, fetcher, {
-        refreshInterval: 20000,
-        revalidateOnFocus: true,
+        refreshInterval: 60000,
+        revalidateOnFocus: false
     })
 
     if (isLoading) return <p>Cargando...</p>

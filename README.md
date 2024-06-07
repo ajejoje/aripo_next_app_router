@@ -107,10 +107,6 @@ const userSchema = z.object({
 - Realizacion de pedidos y Gestion de los pedidos
 - CRUD de productos
 
-### Pruebas Automatizadas
-
-- Jest y Testing Library
-
 ## Despliegue
 
 ### Entorno de Despliegue

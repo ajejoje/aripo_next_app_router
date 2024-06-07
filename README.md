@@ -104,7 +104,7 @@ const userSchema = z.object({
 
 ### Plan de Pruebas
 
-- Registro de usuario con datos válidos/invalidos
+- Realizacion de pedidos y Gestion de los pedidos
 - CRUD de productos
 
 ### Pruebas Automatizadas
@@ -144,7 +144,7 @@ const userSchema = z.object({
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/usuario/repositorio.git
+   git clone https://github.com/ajejoje/aripo_next_app_router.git
    ```
 2. Crea una rama:
    ```bash
@@ -168,7 +168,7 @@ const userSchema = z.object({
 
 ### Documentación del Código
 
-- Uso de comentarios y herramientas de documentación automática como JSDoc o Typedoc.
+- Uso de comentarios
 
 ## Anexos
 
@@ -177,7 +177,3 @@ const userSchema = z.object({
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Prisma Documentation](https://www.prisma.io/docs)
 - [Zod Documentation](https://zod.dev/)
-
-```
-
-```
